@@ -1,0 +1,50 @@
+//nav vista vertical
+
+.navigation{
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+
+.logo{
+   background-color: $smocky-black;
+   padding: 1.5rem;
+   height: 4.5rem;
+   width: 4.5rem;
+
+   a{
+      text-decoration: none;
+      color : $white;
+      font-family: $old-standart;
+      font-weight: $bold;
+      font-size: $x-large;
+      display: flex;
+      align-content: center;
+      justify-content: center;   
+   }
+}
+
+
+.lista{
+   margin-left: auto;
+   ul{
+      list-style: none;
+      display: flex;
+      margin: 1.5rem;
+      li {
+         align-items: flex-end;
+         a{
+         text-decoration: none;
+         margin: 3rem;
+         color: $smocky-black;
+         font-family: $raleway;
+         font-weight: $bold;
+         }
+      }
+   }
+}
+
+// Medium devices (tablets, 768px and up)
+/* @media (min-width: 768px) { 
+
+} */

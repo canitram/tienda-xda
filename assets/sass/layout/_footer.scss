@@ -1,0 +1,42 @@
+
+.newsletter {
+   background-color: $smocky-black;
+   font-family: $old-standart;
+   position: relative;
+   
+   &__title {
+      color: $white;
+      font-weight: $bold;
+      font-size: $xx-large;
+      margin: 1rem;
+      padding-left: 5rem;
+   }
+   &__input {
+      color: $white;
+      padding-left: 5rem;
+      margin: 1rem;
+      & label {
+         font-size: $medium;
+         display: block;
+      }
+      & input {
+         padding: 0.4rem;
+         margin-top: 0.4rem;
+      }
+   }
+   .suscribe{
+      background-color: #fff;
+      height: 9rem;
+      position: absolute;
+      right: 0;
+      & span {
+         float: left;
+         transform: rotate(90deg);
+         position: relative;
+         top: 3.5rem;
+         font-size: $large;
+         font-weight: $bold;
+      }
+   }
+}
+

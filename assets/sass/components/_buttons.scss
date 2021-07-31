@@ -1,0 +1,20 @@
+.btn{
+   border: 2px solid $smocky-black;
+   color : $smocky-black;
+   font-family: $raleway;
+   font-weight: $bold;
+   padding: 0.6rem 1.5rem;
+   font-size: $medium;
+   background: transparent;
+   margin-top: 1rem;
+   &__small{
+      font-size: $small;
+   }
+   &:hover{
+      border : 2px solid $light-gray;
+      &:focus{
+         color : $light-gray;
+      }
+   }
+}
+

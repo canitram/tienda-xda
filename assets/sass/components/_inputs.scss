@@ -1,0 +1,8 @@
+//input correoElectronico
+
+.mail-input{
+   font-family: $raleway;
+   &::placeholder{
+      font-size: xx-small;
+   }
+}

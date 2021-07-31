@@ -1,0 +1,28 @@
+
+.main__header {
+   padding: 2.5rem 4rem;
+   margin: 5rem 2rem;
+   &--title {
+      font-size: $xx-large;
+      font-family: $old-standart;
+      font-weight: $bold;
+      color: $smocky-black;
+      text-transform: uppercase;
+      text-align: start;
+   }
+   &--info {
+      margin-top: 1rem;
+      font-family: $raleway;
+      font-size: $medium;
+      color: $quick-silver;
+      text-align: start;
+      line-height: 1.4rem;
+   }
+
+}
+.main__img {
+   background-image: url('../img/imagen1.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: auto;
+}
