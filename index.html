@@ -5,26 +5,31 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="./assets/css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
       <title>Tienda XDA</title>
    </head>
    <body>
-      <div class="container">
+     <!--  <div class="container"> -->
          <nav class="navigation">
             <div class="logo">
                <a>XDA</a>
             </div>
-            <div class="lista">
-               <ul>
-                  <li><a href="#mujer">Mujer</a></li>
-                  <li><a href="#hombre">Hombre</a></li>
-                  <li><a href="#accesorios">Accesorios</a></li>
-                  <li><a href="#blog">Blog</a></li>
-               </ul>
+            <div class="menu">
+               <label for="toggle"><i class="fas fa-bars"></i></label>
+               <input type="checkbox" id="toggle">
+               <div class="lista">
+                  <ul>
+                     <li><a href="#mujer">Mujer</a></li>
+                     <li><a href="#hombre">Hombre</a></li>
+                     <li><a href="#accesorios">Accesorios</a></li>
+                     <li><a href="#blog">Blog</a></li>
+                  </ul>
+               </div>
             </div>
          </nav>
          <!-- fin nav -->
          <div class="row">
-            <div class="col-lg-5 col md-12">
+            <div class="col-lg-6 col-md-12 col-sm-12">
                <section class="main">
                   <article class="main__header">
                      <h1 class="main__header--title">
@@ -56,12 +61,13 @@
                </section>
             </div>
 
-            <div
-               class="col-lg-7 col-md-12 main__img"><!-- img renderizado desde bg css -->
+            <div class="col-lg-6 col-md-12 col-sm-12">
+               <div class="main__img"></div>
+               <!-- img renderizado desde bg css -->
             </div>
          </div>
          <!-- fin row -->
-      </div>
+     <!--  </div> -->
       <!-- fin container -->
    </body>
 </html>
